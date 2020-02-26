@@ -25,7 +25,7 @@ app = Flask(__name__)
 app = Flask(__name__)
 @app.route("/")
 def Home():
-    result (
+    return (
         "<h2>List of Paths</h2><ul><li>/api/v1.0/precipitation</li><li>/api/v1.0/stations</li><li>/api/v1.0/tobs</li><li>/api/v1.0/&lt;start&gt;</li><li>/api/v1.0/&lt;start&gt;/&lt;end&gt;</li></ul>"
     )
 
